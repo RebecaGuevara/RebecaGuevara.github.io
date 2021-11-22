@@ -1,0 +1,103 @@
+@charset "utf-8";
+.titulo {
+    margin-top: -400px;
+    color: #FCFCFC;
+    margin-left: 377px;
+}
+*{
+	align-content: center;
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+}
+header,nav{
+	width: 2000px;
+	height: 100px;
+	margin: 0 auto;
+}
+.titulo{
+	font-family: 'Amatic SC', cursive;
+	font-size: 150px;
+	margin-top: 20px;
+}
+nav{
+	margin: 0 auto;
+	display: inline-block;
+	text-align: center;
+}
+.menu{
+	align-content: center;
+	align-items: center;
+	align-self: center;
+}
+.menu li{
+	list-style-type: none;
+	display: inline-block;
+	margin: 5px 50px;
+	color: #000000;
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+.diademuertos{
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 50px;
+	text-align: center;
+}
+
+.introduccion {
+    margin-left: 60px;
+}
+.ahorasi{
+	margin: 40px;
+	font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+}
+.Origen{
+	margin: 40px;
+	font-size: 28px;
+	font-family: 'Montserrat', sans-serif;
+}
+.textoorigen{
+    float: right;
+    margin-left: 1237px;
+    margin-top: -750px;
+}
+.origentitulo{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 100px;
+    text-align: center;
+    margin-top: -100px;
+    margin-left: 1532px;
+}
+.ofrendaimagen{
+	float: right;
+}
+.ofrendastexto{
+    margin-top: 55px;
+    margin-right: 55px;
+    margin-left: 55px;
+    margin-bottom: 55px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    top: 130px;
+	
+}
+.ofrendastitulo{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 100px;
+    margin-left: 400px;    
+}
+.videos{
+    align-content: center;
+    margin-left: 157px;
+}
+.videostitulo{
+	font-family: 'Berkshire Swash', cursive;
+    font-size: 100px;
+    margin-left: 900px;  
+}
+footer{
+    margin-left: 900px;	
+
+}
