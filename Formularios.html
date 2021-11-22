@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+
+<link href="css/style_enlaces.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header>
+		<h1>Formularios en HTML</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Mi primera página</a></li>
+			<li><a href="Listas.html">Listas</a></li>
+			<li><a href="Enlaces.html">Enlaces</a></li>
+			<li><a href="Frases de libros.html">Frases de Libros</a></li>
+			<li><a href="Tablas.html">Tablas</a></li>
+			<li><a href="Audio.html">Audio</a></li>
+			<li><a href="Video.html">Video</a></li>
+			<li><a href="Imagenes.html">Imágenes</a></li>
+			<li><a href="Animaciones.html">Animaciones</a></li>
+			<li><a href="Formularios.html">Formularios</a></li>
+			<li><a href="Flexbox.html">Flexbox</a></li>
+			<li><a href="DiaDeMuertos.html">Día de Muertos</a></li>
+			<li><a href="Mediaqueries.html">Mediaqueries</a></li>
+		</ul>
+	</nav>
+	<main>
+		<section>
+			<h2>Inserción de formulario</h2>
+			<form>
+				<label>Nombre</label>
+				<input type="text" id="id name" name="Nombre">
+				<input type="button" id="id button" name="Enviar" value="Enviar">
+			</form>
+		</section>
+		<section>
+			<h2>Inserción de formulario con casillas de formulación</h2>
+			<label>¿Cuál es el género musical que prefieres?</label>
+			<input type="checkbox" id="generom1" name="generom1" value="Pop"><label>Pop</label>
+			<input type="checkbox" id="generom2" name="generom2" value="Rock"><label>Rock</label>
+			<input type="checkbox" id="generom3" name="generom3" value="Jazz"><label>Jazz</label>
+			<input type="checkbox" id="generom4" name="generom4" value="Reggaeton"><label>Reggaeton</label>
+			<input type="checkbox" id="generom5" name="generom5" value="Alternativo"><label>Alternativo</label>
+			<input type="button" id="Button2" name="Enviar2" value="Enviar">
+		</section>
+		<section>
+			<h2>Inserción de formulario con botones de radio</h2>
+			<form id="form1" name="form1" method="post">
+				<label>Género</label>
+				<input type="radio" name="radio" id="radio" value="radio">
+				<labeL for="radio">Mujer&nbsp;</labeL>
+				<input type="radio" name="radio2" id="radio2" value="radio2">
+				<labeL for="radio2">Hombre&nbsp;</labeL>
+				<input type="submit" name="submit" id="submit" value="Enviar">
+			</form>
+		</section>
+		<section>
+			<h2>Formulario de contacto</h2>
+			<form>
+				<label>Contacto</label>
+				<table width="50%" border="0">
+					<tbody>
+						<tr>
+							<td><label for="textfield">Nombre&nbsp;</label>&nbsp;</td>
+				<td><input type="text" name="textfield" id="textfield">&nbsp;</td>
+						</tr>
+						<tr>
+							<td><label for="email">Email&nbsp;<td></label>&nbsp;</td>
+				<input type="text" name="email" id="email">&nbsp;</td>
+						</tr>
+						<tr>
+							<td><label for="texttarea">Mensaje&nbsp;</label>&nbsp;</td>
+				<td><input type="text" name="textfield" id="textfield">&nbsp;</td>
+						</tr>
+					</tbody>
+				</table>
+				
+			</form>
+		</section>
+	<section>
+		<h2>Formulario de ingreso</h2>
+		<form action="pagina de accion.html">
+			
+		<label>Usuario</label>
+		<input type="text">
+		<br>
+		<label>Contaseña</label>
+		<input type="password">
+		<input type="submit" name="submit3" value="Enviar">
+			</form>
+	</section>
+	</main>
+</body>
+</html>
+

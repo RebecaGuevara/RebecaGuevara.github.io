@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Flexbox</title>
+	
+	<style>
+		.box-container-flex{
+			background-color: aqua;
+			display: flex;
+		}
+		.box-container-flex > div, .box-container-flex2 > div, .box-container-flex3 > div, .box-container-flex4 > div, .box-container-flex5 > div, .box-container-flex6 > div, .box-container-flex7 > div{
+			background-color: #C3C1C1;
+			margin: 10px;
+			padding: 20px;
+			font-size: 30px;
+			width: 500px;
+		}
+		.box-container-flex2{
+			background-color: aqua;
+			display: flex;
+			flex-direction: row-reverse;
+		}
+		.box-container-flex3{
+			background-color: aqua;
+			display: flex;
+			flex-wrap: wrap-reverse;
+		}
+		.box-container-flex4{
+			background-color: aqua;
+			display: flex;
+			justify-content: center;
+		}
+		.box-container-flex5{
+			background-color: aqua;
+			display: flex;
+			height: 400px;
+			align-items: stretch;
+			margin: 5px;
+			padding: 10px;
+			font-size: 20px;
+		}
+		.box-container-flex6{
+			background-color: aqua;
+			display: flex;
+			align-content: space-between;
+			margin: 10px;
+			padding: 30px;
+			height: 600px;
+			flex-wrap: wrap;
+		}
+		.box-container-flex7{
+			background-color: aqua;
+			display: flex;
+			align-content: space-between;
+			margin: 10px;
+			padding: 30px;
+			height: 600px;
+			justify-content: center;
+			align-items: center;
+		}
+	</style>
+	<link href="css/style_enlaces.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header>Flexbox</header>
+	<nav>
+		<li><a href="index.html">Mi primera página</a></li>
+			<li><a href="Listas.html">Listas</a></li>
+			<li><a href="Enlaces.html">Enlaces</a></li>
+			<li><a href="Frases de libros.html">Frases de Libros</a></li>
+			<li><a href="Tablas.html">Tablas</a></li>
+			<li><a href="Audio.html">Audio</a></li>
+			<li><a href="Video.html">Video</a></li>
+			<li><a href="Imagenes.html">Imágenes</a></li>
+			<li><a href="Animaciones.html">Animaciones</a></li>
+			<li><a href="Formularios.html">Formularios</a></li>
+			<li><a href="Flexbox.html">Flexbox</a></li>
+			<li><a href="DiaDeMuertos.html">Día de Muertos</a></li>
+			<li><a href="Mediaqueries.html">Mediaqueries</a></li>
+	</nav>
+<main>
+		<section>
+			<h2>Flexbox</h2>
+		<div class="box-container-flex">
+		  <div>1</div>
+		  <div>2</div>
+		  <div>3</div>
+		</div>
+  </section>
+  <section>
+			<h2>Uso de propiedades flex direction</h2>
+		<div class="box-container-flex2">
+			<div>1</div>
+			<div>2</div>
+			<div>3</div>
+			<div>4</div>
+			<div>5</div>
+		</div>
+			</section>
+		<section>
+		  <h2>Uso de propiedades flex wrap</h2>
+		  <div class="box-container-flex3">
+		    <div>1</div>
+		    <div>2</div>
+		    <div>3</div>
+		    <div>4</div>
+		    <div>5</div>
+			<div>6</div>
+		    <div>7</div>
+			<div>8</div>
+		    <div>9</div>
+		    <div>10</div>
+			<div>11</div>
+		    <div>12</div>
+	      </div>
+  </section>
+		<section>
+		  <h2>Uso de propiedades justify content-center, flex end y flex start</h2>
+		  <div class="box-container-flex4">
+		    <div>1</div>
+		    <div>2</div>
+		    <div>3</div>
+	      </div>
+  </section>
+		<section>
+		  <h2>Uso de propiedades align items</h2>
+		  <div class="box-container-flex5">
+		    <div>1</div>
+		    <div>2</div>
+		    <div>3</div>
+			<div>4</div>
+		    <div>5</div>
+	      </div>
+  </section>
+		<section>
+		  <h2>Uso de propiedades align content</h2>
+		  <div class="box-container-flex6">
+		    <div>1</div>
+		    <div>2</div>
+		    <div>3</div>
+		    <div>4</div>
+		    <div>5</div>
+			<div>6</div>
+		    <div>7</div>
+		    <div>8</div>
+		    <div>9</div>
+		    <div>10</div>
+			<div>11</div>
+		    <div>12</div>
+	      </div>
+  </section>
+		<section>
+		  <h2>Uso de propiedades centrado horizontal y vertical</h2>
+		  <div class="box-container-flex7">
+		    <div>1</div>
+	      </div>
+  </section>
+  </main>
+	<footer></footer>
+</body>
+</html>
+
